@@ -65,21 +65,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <p className="mt-14 text-center text-[0.8rem] text-bg/40">
-          © 2026 {brand.name}. All rights reserved.
-        </p>
-
-        <div className="mt-6 border-t border-bg/10 pt-6 text-center">
-          <p className="text-[1.02rem] text-bg/65">
-            Designed and developed by{" "}
-            <a
-              href="https://shoaibdev.framer.website"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-medium text-bg underline decoration-bg/30 underline-offset-4 transition-colors hover:text-sprout hover:decoration-sprout"
-            >
-              Mohammed Shoaib Choudry
-            </a>
+        <div className="mt-14 border-t border-bg/10 pt-6 text-center">
+          <p className="text-[0.82rem] text-bg/45">
+            © 2026 {brand.name}. All rights reserved.
           </p>
         </div>
       </div>
