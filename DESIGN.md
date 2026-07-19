@@ -34,7 +34,7 @@ Contrast-axis pairing (serif + humanist sans + mono), self-hosted via `next/font
 
 ## Layout
 
-One-page smooth-scroll (Lenis), 5 sections mapped to the brand's five slides: Hero → What We Serve (menu) → Why Eat Good Club → Perfect For → Order / Join the Club. Generous, varied vertical rhythm (not uniform). Content max-width ~72rem; menu uses `repeat(auto-fit, minmax(...))` not fixed breakpoints. Real produce photography (Unsplash-curated) supplies natural colour; AI imagery only as a last-resort fallback. No nested cards; the menu is an editorial list, not an icon-card grid. Semantic z-index scale.
+One-page smooth-scroll (Lenis), 5 sections mapped to the brand's five slides: Hero → What We Serve (menu) → Why Eat Good Club → Perfect For → Order / Join the Club. Generous, varied vertical rhythm (not uniform). Content max-width ~72rem. Imagery is the client's own product photography (WebP), one shot per menu category plus hero and Why. The menu is an editorial list (not an icon-card grid) with a small product thumbnail per row. Semantic z-index scale.
 
 ## Motion
 

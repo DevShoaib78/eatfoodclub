@@ -11,7 +11,7 @@ export default function manifest(): MetadataRoute.Manifest {
     background_color: "#f5f5f0",
     theme_color: "#607018",
     icons: [
-      { src: "/brand/logo-olive.png", sizes: "512x512", type: "image/png" },
+      { src: "/brand/logo-olive.webp", sizes: "512x512", type: "image/webp" },
     ],
   };
 }

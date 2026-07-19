@@ -1,11 +1,15 @@
 # Photo credits
 
-Photography sourced from [Unsplash](https://unsplash.com) under the free Unsplash License
-(free for commercial and non-commercial use; attribution appreciated, not required).
+All photography is **Eat Good Club's own product photography**, supplied by the client.
+Sourced images are stored as optimised WebP in `public/`.
 
-- `public/photos/hero.jpg` — fresh fruit platter · Unsplash (photo-1641642399576-487909d0ddbc)
-- `public/photos/why.jpg` — preparing fresh food by hand · Unsplash (photo-1507048331197-7d4ac70811cf)
-- `public/og.png` — composited from `hero.jpg` with brand overlay.
+- `public/photos/hero.webp` — branded tea-tin flat-lay (site hero)
+- `public/photos/why.webp` — fresh fruit platter (Why section)
+- `public/photos/menu-*.webp` — one product shot per menu category
+- `public/photos/*.webp` (chickpea salad, date stack, parfaits, chia puddings) — spare product
+  shots kept for future use
+- `public/og.png` — social share card, composited from the fruit platter + brand overlay
+  (kept as PNG for WhatsApp/link-preview compatibility)
 
-Replace these with Eat Good Club's own product photography when available — drop files at the
-same paths and the layout will pick them up.
+To swap any image, drop a replacement at the same path (WebP preferred) and the layout picks
+it up. Menu images are referenced from `src/lib/brand.ts`.

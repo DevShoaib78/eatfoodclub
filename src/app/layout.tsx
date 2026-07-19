@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   keywords: [
     "healthy food",
     "fresh fruit platters",
-    "cold-pressed juice",
+    "wellness juice",
     "fresh salads",
     "wellness shots",
     "yogurt bowls",
@@ -56,9 +56,10 @@ export const metadata: Metadata = {
     description: brand.description,
     images: [
       {
-        url: "/og.png",
+        url: "/og.jpg",
         width: 1200,
         height: 630,
+        type: "image/jpeg",
         alt: "Eat Good Club: fresh, wholesome food made with care.",
       },
     ],
@@ -68,7 +69,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Eat Good Club · Making Good Food the New Normal",
     description: brand.description,
-    images: ["/og.png"],
+    images: ["/og.jpg"],
   },
   robots: {
     index: true,

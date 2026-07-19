@@ -49,7 +49,7 @@ export default function Splash() {
     <div className="splash" role="status" aria-label="Eat Good Club is loading">
       <div className="flex flex-col items-center px-6">
         <Image
-          src="/brand/logo-cream.png"
+          src="/brand/logo-cream.webp"
           alt="Eat Good Club"
           width={220}
           height={220}

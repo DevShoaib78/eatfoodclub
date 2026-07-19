@@ -71,7 +71,7 @@ export default function Hero() {
       {/* Full-bleed landscape image */}
       <div ref={imgWrap} aria-hidden className="absolute inset-0">
         <Image
-          src="/photos/hero-wide.jpg"
+          src="/photos/hero.webp"
           alt=""
           fill
           priority
@@ -127,7 +127,7 @@ export default function Hero() {
 
           <p className="hero-sub mt-7 max-w-md text-[1.05rem] leading-relaxed text-bg">
             Healthy eating shouldn&apos;t feel complicated. Fresh platters, salads,
-            cold-pressed juices and more, thoughtfully made to help you eat well,
+            wellness juices and more, thoughtfully made to help you eat well,
             feel good, and enjoy every bite.
           </p>
 

@@ -11,8 +11,8 @@ export default function Why() {
         <Reveal className="relative order-2 lg:order-1">
           <div className="relative aspect-[4/5] w-full overflow-hidden rounded-[1.75rem] ring-1 ring-ink/10">
             <Image
-              src="/photos/why.jpg"
-              alt="Fresh ingredients being prepared by hand at Eat Good Club."
+              src="/photos/why.webp"
+              alt="A vibrant Eat Good Club fresh fruit platter of dragonfruit, mango, kiwi and berries."
               fill
               sizes="(max-width: 1024px) 100vw, 45vw"
               className="object-cover"
